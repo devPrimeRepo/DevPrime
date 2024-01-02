@@ -1,0 +1,137 @@
+/* Lang */
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat Reg';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Montserrat/montserrat-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat Latin500';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/Montserrat/montserrat-v26-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat Latin600';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/Montserrat/montserrat-v26-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat Latin700';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/Montserrat/montserrat-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-900 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat Latin900';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/fonts/Montserrat/montserrat-v26-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Pre settings */
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat Reg', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    display: block;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.button {
+    max-width: 225px;
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid var(--button-color);
+    color: var(--button-color);
+    background: none;
+    cursor: pointer;
+}
+
+:root {
+    --bg-color: rgba(214, 244, 241, 1);
+    --bg-color-liner: linear-gradient(270deg, #D6F4F1 0.08%, rgba(214, 244, 241, 0.00) 99.91%);
+    --bg-color2: rgba(243, 245, 251, 1);
+    --bg-color-liner-fon: rgba(33, 37, 41, 0.54);
+    --bg-checkbox-color: rgba(235, 243, 255, 1);
+    --main-color: #4D63D9;
+    --button-color: #4D63D9;
+    --text-color-white: #FFFFFF;
+    --text-color-black: #000000;
+    --text-color-gray: #808285;
+    --bg-color-modal: linear-gradient(180deg, #4D63D9 42.89%, #FF6DCE 99.94%);
+    --overlay-color-modal: rgba(0, 0, 0, 0.58);
+    --libraries-color-one: linear-gradient(144deg, #3BC3E1 1.68%, #1C32FF 34.18%, #FF6DCE 78.49%);
+    --libraries-color-two: rgba(250, 255, 1, 1), rgba(254, 0, 122, 1), rgba(255, 72, 72, 1);
+    --libraries-color-three: linear-gradient(153deg, rgba(59, 195, 225, 0.68) 14.52%, rgba(1, 88, 219, 0.69) 36.04%, rgba(247, 82, 142, 0.67) 79.09%);
+    --libraries-color-four: linear-gradient(136deg, #3BC3E1 14.76%, #1C32FF 43.7%, #FF6DCE 85.29%);
+}
+
+/* Header */
+header {
+    padding: 19px 0;
+    width: 100%;
+    display: block;
+    font-family: 'Montserrat Reg', sans-serif;
+}
+
+.header__top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top-box {
+    display: flex;
+}
+.header__top-box a:not(:last-child) {
+    margin-right: 24px;
+}
+/* Burger menu */
+
+/* Main */
+
