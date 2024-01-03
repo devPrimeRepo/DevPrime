@@ -51,7 +51,7 @@
 }
 
 body {
-    font-family: 'Montserrat Reg', serif;
+    font-family: 'Montserrat Reg', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -128,8 +128,19 @@ header {
 .header__top-box {
     display: flex;
 }
+
 .header__top-box a:not(:last-child) {
     margin-right: 24px;
+}
+
+.header__top-link {
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid var(--text-color-white);
+    color: var(--text-color-black);
+}
+
+.header__top-link:hover {
+    border-bottom: 2px solid var(--button-color);
 }
 /* Burger menu */
 
