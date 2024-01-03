@@ -100,7 +100,8 @@ li {
     --bg-checkbox-color: rgba(235, 243, 255, 1);
     --main-color: #4D63D9;
     --button-color: #4D63D9;
-    --text-color-white: #FFFFFF;
+    --text-color-white: white;
+    --text-color-white-opacity: rgba(255, 255, 255, 0.34);
     --text-color-black: #000000;
     --text-color-gray: #808285;
     --bg-color-modal: linear-gradient(180deg, #4D63D9 42.89%, #FF6DCE 99.94%);
@@ -117,6 +118,7 @@ header {
     width: 100%;
     display: block;
     font-family: 'Montserrat Reg', sans-serif;
+    background-color: var(--bg-color);
 }
 
 .header__top .container {
@@ -135,13 +137,74 @@ header {
 
 .header__top-link {
     transition: 0.3s ease-in-out;
-    border-bottom: 2px solid var(--text-color-white);
+    border-bottom: 2px solid var(--bg-color);
     color: var(--text-color-black);
 }
 
 .header__top-link:hover {
     border-bottom: 2px solid var(--button-color);
 }
+
+/* Buttons top header */
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: var(--text-color-white-opacity);
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+/* Animation */
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 /* Burger menu */
 
 /* Main */
