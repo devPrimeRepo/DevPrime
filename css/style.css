@@ -208,4 +208,63 @@ header {
 /* Burger menu */
 
 /* Main */
+.main__home-wrapper{
+    background-color: var(--bg-color);
+    height: 1019px;
+}
 
+.main__home-content {
+    height: 697px;
+    padding-top: 140px;
+}
+
+.main__content-img {
+    width: 480px;
+    height: 697px;
+    float: right;
+}
+
+
+.main__content-p {
+    font-family: 'Montserrat Reg', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 18px;
+    width: 340px;
+    height: 44px;
+}
+
+.main__content-p-2 {
+    font-family: 'Montserrat Reg', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 18px;
+    width: 569px;
+    height: 66px;
+}
+
+.main__content-h {
+    font-family: 'Montserrat Reg', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    height: 126px;
+    width: 454px;
+}
+
+.main__info-block {
+    width: 569px;
+    height: 404px;
+    margin-top: 152px;
+    margin-bottom: 141px;
+}
+
+
+.main__info-btn {
+    width: 454px;
+    height: 52px;
+    margin-top: 80px;
+    display: flex;
+}
