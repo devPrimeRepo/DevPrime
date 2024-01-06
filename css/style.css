@@ -146,6 +146,107 @@ header {
     border-bottom: 2px solid var(--button-color);
 }
 
+/* Modal */
+
+.popup-fade {
+    display: none;
+}
+
+.popup-fade:before {
+    content: '';
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.popup {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    padding: 20px;
+    width: 557px;
+    height: 752px;
+    margin-left: -200px;
+    background: #fff;
+    border-radius: 19px;
+    z-index: 1000;
+    opacity: 1;
+}
+
+.popup h2 {
+    text-align: center;
+    margin-bottom: 63px;
+    margin-top: 38px;
+}
+
+.popup p {
+    text-align: center;
+    width: 428px;
+    margin: 0 auto 11px;
+}
+
+#nameCall, #emailCall {
+    width: 463px;
+    height: 51px;
+    border-radius: 19px;
+    background: #EFF0F5;
+    padding: 15px 0 15px 19px;
+    font-size: 18px;
+    border: none;
+    margin: 0 auto 14px;
+}
+
+#nameCall:focus, #textCall:focus, #emailCall:focus {
+    outline: none;
+}
+
+#textCall {
+    width: 463px;
+    height: 157px;
+    border-radius: 19px;
+    background: #EFF0F5;
+    padding: 15px 0 15px 19px;
+    font-size: 18px;
+    border: none;
+    margin: 0 auto 14px;
+}
+
+.form__call {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__call .button {
+    margin: 65px auto 0;
+    border-radius: 11px;
+    background: #4D63D9;
+    color: var(--text-color-white);
+}
+
+.form__call .personal-data {
+    padding: 0 38px;
+    margin-top: 22px;
+}
+
+.form__call p {
+    color: #5E5E5E;
+}
+
+.form__call a {
+    color: #4D63D9;
+}
+
+.popup-close {
+    position: absolute;
+    top: 22px;
+    right: 33px;
+}
+
 /* Buttons top header */
 .btn:link,
 .btn:visited {
@@ -228,8 +329,8 @@ header {
     width: 100%;
     max-height: 627px;
     height: 100%;
-    position: relative;
     background-color: #FAE36D;
+    z-index: 998;
 }
 
 .main__content-img {
@@ -447,22 +548,17 @@ header {
 }
 .services-title p {
     color: var(--main-color);
-    margin-top: 6%;
 }
 
-.circle {
-    width: 25px;
-    height: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    border: solid var(--main-color) 1px;
+.services-title {
     display: flex;
-    float: left;
-    margin-right: 5%;
-    margin-top: 5%;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
+.services-title img{
+    margin-right: 7px;
+}
 
 .btn-title button:first-child{
     background-color: var(--button-color);
@@ -498,7 +594,8 @@ header {
 
 .form__text {
     display: flex;
-    margin-top: 10%;
+    margin: 10% auto;
+    justify-content: center;
 }
 .form__text input{
     position: relative;
