@@ -629,11 +629,17 @@ header {
 .personal-data {
     display: flex;
     margin-top: 5%;
+    justify-content: center
 }
 
 .personal-data input {
     margin-right: 2%;
     width: 3%;
+}
+
+.personal-data a {
+    cursor: pointer;
+    color: var(--button-color);
 }
 
 .personal-data p {
