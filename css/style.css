@@ -132,7 +132,7 @@ header {
     display: flex;
 }
 
-.header__top-box a:not(:last-child) {
+.header__top-box li:not(:last-child) {
     margin-right: 24px;
 }
 
@@ -142,10 +142,68 @@ header {
     color: var(--text-color-black);
 }
 
+.header__top-item:nth-child(3) {
+    display: flex;
+}
+
+.header__top-link .open__content {
+    margin-left: 5px;
+    transform: rotate(270deg);
+}
+
 .header__top-link:hover {
     border-bottom: 2px solid var(--button-color);
 }
 
+/* dropdown nav*/
+.header__top-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header__top-item-with-submenu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -245px;
+    list-style-type: none;
+    padding: 15px;
+    background-color: #fff; /* Цвет фона подменю, при необходимости измените */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавление тени для стиля */
+    border-radius: 17px;
+    z-index: 1000;
+}
+
+.submenu li {
+    padding: 10px;
+}
+
+.submenu li a {
+    color: black;
+}
+
+.submenu ul {
+    width: 331px;
+}
+
+.submenu li a:hover {
+    color: var(--button-color);
+}
+
+.submenu li:last-child {
+    border-bottom: none; /* Убираем разделительную линию у последнего пункта */
+}
+
+.header__top-link:hover + .submenu,
+.submenu:hover {
+    display: flex;
+}
 /* Modal */
 
 .popup-fade {

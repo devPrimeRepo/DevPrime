@@ -50,4 +50,11 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    // Добавляем класс "active" при наведении на пункт меню
+    $('.header__top-link').hover(function () {
+        $(this).parent().toggleClass('active');
+    });
+});
+
 
