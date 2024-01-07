@@ -57,4 +57,23 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    // Появление и исчезновение кнопки при скролле
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-to-top').fadeIn();
+        } else {
+            $('.scroll-to-top').fadeOut();
+        }
+    });
+
+    // Плавный скролл наверх при клике на кнопку
+    $('.scroll-to-top').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+});
+
 

@@ -712,6 +712,10 @@ header {
     margin-top: 71px;
 }
 
+.footer__about {
+    margin-top: 0 !important;
+}
+
 .footer__home-wrap {
     display: flex;
     justify-content: space-between;
@@ -760,4 +764,27 @@ header {
 .footer__home-block:nth-child(4),
 .footer__home-block:nth-child(5) {
     width: 166px;
+}
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--button-color);
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    border-radius: 50%;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s ease-in-out;
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
 }
