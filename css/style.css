@@ -634,6 +634,11 @@ header {
     color: var(--text-color-white);
 }
 
+.btn-title .btn:hover {
+    transform: unset;
+    box-shadow: unset;
+}
+
 .btn-services button:first-child {
     background-color: var(--button-color);
     color: var(--text-color-white);
