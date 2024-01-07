@@ -50,6 +50,20 @@ $(document).ready(function () {
 });
 
 
+/* fixed color header */
+$(document).ready(function () {
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll > 50) {
+            $('.header__top').addClass('white-bg');
+        } else {
+            $('.header__top').removeClass('white-bg');
+        }
+    });
+});
+
+/* add class for top header */
 $(document).ready(function () {
     // Добавляем класс "active" при наведении на пункт меню
     $('.header__top-link').hover(function () {
@@ -57,6 +71,7 @@ $(document).ready(function () {
     });
 });
 
+/* buttons for return top */
 $(document).ready(function () {
     // Появление и исчезновение кнопки при скролле
     $(window).scroll(function () {

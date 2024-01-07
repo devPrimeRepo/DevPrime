@@ -122,6 +122,11 @@ header {
     z-index: 999;
 }
 
+.header__top.white-bg {
+    transition: all 0.5s ease-in-out;
+    background-color: #fff; /* Цвет фона при скролле */
+}
+
 .header__top .container {
     display: flex;
     justify-content: space-between;
@@ -138,7 +143,7 @@ header {
 
 .header__top-link {
     transition: 0.3s ease-in-out;
-    border-bottom: 2px solid var(--bg-color);
+    border-bottom: 2px solid rgba(214, 244, 241, 0);
     color: var(--text-color-black);
 }
 
