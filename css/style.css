@@ -798,3 +798,199 @@ header {
 .scroll-to-top:hover {
     opacity: 1;
 }
+
+/*about page main*/
+
+.main__about-img {
+    padding-top: 10vmin;
+    position: relative;
+}
+
+.about-company {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    color: white;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__about-img img {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+}
+
+/*about services block*/
+.services__info {
+    width: 60%;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__info p {
+    margin-top: 2%;
+    color: var(--text-color-gray);
+}
+
+.our__services-title {
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-between;
+}
+
+.our__services-info {
+    text-align: left;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.our__services-img {
+    margin-right: 15%;
+    background-color: #ECF0FC;
+    width: 20%;
+    border-radius: 10%;
+    height: 50vmin;
+    margin-bottom: 5%;
+}
+
+.our__services-img img {
+    transform: translate(-150px, 28px);
+    width: 52vmin;
+    height: 42vmin;
+}
+
+.our__services-btn{
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+    margin-top: 10%;
+}
+
+/*about pluses card*/
+
+.about__our-pluses {
+    background-color: #F3F5FB;
+}
+
+.about__pluses-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.about__pluses-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pluses_blocks-card {
+    width: 28%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+.pluses_blocks-card img {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 15vmin;
+    height: 13vmin;
+}
+
+.pluses_blocks-card h2 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+.pluses_blocks-card p {
+    text-align: center;
+    margin-top: 3%;
+    color: var(--text-color-gray)
+}
+
+.pluses-title {
+    width: 120%;   
+}
+
+.pluses-title p {
+    color: var(--text-color-gray);
+    margin-top: 5%;
+}
+
+.pluses-title-btn {
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+    margin-top: 35%;
+}
+
+/*about navigation block*/
+
+.nav__main {
+    margin-top: 5%;
+    
+}
+.nav__main h2 {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation__links {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.navigation__links a {
+    color: var(--text-color-black);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.navigation__links a:hover {
+    color: var(--main-color);
+}
+
+.about__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about__nav-cards {
+    margin-top: 10%;
+}
+
+.nav__cards-row {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.nav__card-img {
+    width: 40vmin;
+    margin-right: 1%;
+}
+
+.nav__card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-data {
+    margin-bottom: 5%;
+}
