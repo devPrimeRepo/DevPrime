@@ -245,6 +245,12 @@ header {
     position: absolute;
     top: 22px;
     right: 33px;
+    opacity: 0.5;
+    transition: 0.3s ease-in-out;
+}
+
+.popup-close:hover {
+    opacity: 1;
 }
 
 /* Buttons top header */
@@ -632,4 +638,62 @@ header {
 
 .personal-data p {
     margin-top: 0;
+}
+
+/* footer */
+
+.footer__home {
+    background-color: var(--bg-color2);
+    padding: 60px 0;
+    margin-top: 71px;
+}
+
+.footer__home-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer__home-block h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer__home-block a {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.footer__home-block a:hover {
+    opacity: 1;
+}
+
+.footer__home-block:first-child {
+    width: 209px;
+}
+
+.footer__home-block:first-child img{
+    margin-bottom: 25px;
+}
+
+.footer__home-block:first-child p{
+    margin-bottom: 32px;
+}
+
+.footer__home-block:first-child .social a:not(:last-child){
+    margin-right: 9px;
+}
+
+.footer__home-block:nth-child(2) {
+    width: 90px;
+}
+
+.footer__home-block:nth-child(3),
+.footer__home-block:nth-child(4),
+.footer__home-block:nth-child(5) {
+    width: 166px;
 }
