@@ -808,20 +808,16 @@ header {
 
 .about-company {
     position: absolute;
-    top: 55%;
-    left: 35%;
     color: white;
-    width: 350px;
-    padding: 10px;
     text-align: center;
+    left: 0;
+    width: 100%;
+    top: 50%;
 }
 
 
 .main__about-img img {
-    max-width: 100%;
-    width: auto;
-    max-height: 100%;
-    height: auto;
+    width: 100%;
 }
 
 /*about services block*/
@@ -851,19 +847,27 @@ header {
     margin-left: 10%;
 }
 
+.our__services-info h2 {
+    margin-bottom: 2%;
+}
+
+.our__services-info p {
+    color: var(--text-color-gray);
+}
+
 .our__services-img {
     margin-right: 15%;
     background-color: #ECF0FC;
     width: 20%;
     border-radius: 10%;
-    height: 50vmin;
+    height: 58vmin;
     margin-bottom: 5%;
 }
 
 .our__services-img img {
     transform: translate(-150px, 28px);
-    width: 52vmin;
-    height: 42vmin;
+    width: 59vmin;
+    height: 50vmin;
 }
 
 .our__services-btn{
@@ -1014,4 +1018,71 @@ header {
 
 .title__wrap-text p {
     color: var(--text-color-gray);
+}
+
+/*section wrap-portfolio*/
+
+.wrap__portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap__portfolio-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap__portfolio-card {
+
+}
+
+.wrap__btn {
+    margin-top: 5%;
+}
+
+/*wrap cards*/
+
+.wrap__btn-more {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--text-color-gray);
+    color: var(--text-color-gray);
+}
+
+.wrap__services {
+    margin-top: 8%;
+}
+
+.wrap__card-img img {
+    transform: translate(50px, 26px);
+    width: 59vmin;
+    height: 50vmin;
+}
+
+.wrap__card-img {
+    margin-left: 10%;
+    height: 58vmin;
+}
+
+.wrap__card-info {
+    margin-left: 0;
+    margin-right: 15%;
+    text-align: left;
+}
+
+.wrap__card-pluses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.wrap__pluses-title {
+    text-align: left;
+}
+
+/*wrap connection*/
+
+.wrap__connection {
+    margin-top: 20%;
 }
