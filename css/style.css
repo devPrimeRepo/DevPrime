@@ -816,6 +816,7 @@ header {
     text-align: center;
 }
 
+
 .main__about-img img {
     max-width: 100%;
     width: auto;
@@ -993,4 +994,24 @@ header {
 
 .nav-data {
     margin-bottom: 5%;
+}
+
+
+/*site wrap page*/
+.title__wrap-text {
+    text-align: center;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.title__wrap-text h2 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+.title__wrap-text p {
+    color: var(--text-color-gray);
 }
