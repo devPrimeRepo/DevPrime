@@ -1153,7 +1153,6 @@ header {
 }
 
 .stacks__wrapper{
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1161,6 +1160,7 @@ header {
 .stacks__card-row {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     margin-top: 10%;
 }
@@ -1174,6 +1174,7 @@ header {
 
 .stacks__card-row-2 {
     display: flex;
+    align-items: center;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
