@@ -865,9 +865,10 @@ header {
 }
 
 .our__services-img img {
-    transform: translate(-150px, 28px);
-    width: 59vmin;
-    height: 50vmin;
+    transform: translate(-49%, 5%);
+    max-width: 180%;
+    height: auto;
+    width: auto;
 }
 
 .our__services-btn{
@@ -1053,9 +1054,10 @@ header {
 }
 
 .wrap__card-img img {
-    transform: translate(50px, 26px);
-    width: 59vmin;
-    height: 50vmin;
+    transform: translate(5%, 7%);
+    max-width: 180%;
+    height: auto;
+    width: auto;
 }
 
 .wrap__card-img {
@@ -1175,6 +1177,10 @@ header {
     justify-content: space-between;
 }
 
+.services__pluses-info {
+    padding-bottom: 5%;
+}
+
 .services__pluses-title {
     text-align: center;
     margin-top: 7%;
@@ -1200,4 +1206,133 @@ header {
 .pluses__info-title h3 {
     margin-bottom: 5%;
     font-weight: 400;
+}
+
+.services__start-project {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F5FB;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:10%;
+    padding-right: 10%;
+}
+
+.start__project-title {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.start__project-title h3 {
+    padding-left: 3%;
+}
+
+.start__project-title p {
+    color: var(--text-color-gray);
+    padding-top: 3%;
+}
+
+.start__project-link {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.start__project-link button {
+    margin: 0 auto;
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+}
+
+.carousel {
+    margin-bottom: 10%;
+}
+
+.carousel__title {
+    text-align: left;
+    width: 40%;
+    padding: 5% 0 5% 0;
+    margin-left: 15%;
+}
+
+.carousel__card {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carousel__img img {
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.carousel__button {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16%;
+}
+
+.carousel__btn {
+    background-color: #FFFFFF;
+    height: 100%;
+    border:none;
+    border-radius: 10px;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.carousel__btn:hover {
+    border-bottom: 1px solid var(--button-color);
+}
+
+.carousel__btn span {
+    padding: 7% 17% 10% 5%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carousel__btn img {
+    padding-right: 5%;
+    margin-top: 25%;
+}
+
+.carousel__navigation-item a {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: white;
+    background-clip: border-box;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 0;
+    display: inline-block;
+}
+
+.carousel__navigation-list, .carousel__navigation-item {
+    display: inline-block;
+}
+
+.carousel__navigation-list {
+    justify-content: space-between;
+    display: inline-flex;
+    width: 6%;
+}
+
+.carousel__aside {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 2%;
 }
