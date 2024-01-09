@@ -1365,6 +1365,15 @@ header {
     width: 27%;
 }
 
+.examples__card a {
+    transition: ease-in-out 0.6s;
+}
+
+.examples__card a:hover {
+    color: var(--main-color);
+    box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
 .examples__site-card a {
    width: 100%;
    height: 100%;
