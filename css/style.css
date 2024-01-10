@@ -209,6 +209,48 @@ header {
 .submenu:hover {
     display: flex;
 }
+
+
+/*modal wrap*/
+
+.modal__wrap {
+    display: none;
+}
+
+.modal__wrap:before {
+    content: '';
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.modal__body {
+    position: fixed;
+    top: 5%;
+    bottom: 10%;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    height: 550px;
+    background: #fff;
+    z-index: 1000;
+    opacity: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.modal__body h2{
+    text-align: center;
+}
+
+/*modal wrap end*/
+
 /* Modal */
 
 .popup-fade {
@@ -648,7 +690,7 @@ header {
 /*connection block*/
 
 .connection__block {
-    padding-top: 5%;
+    padding-top: 40px;
 }
 
 .connection__title {
@@ -1573,7 +1615,8 @@ header {
 }
 
 .under__other {
-    padding-top: 5%;
+    padding-top: 50px;
+    padding-bottom: 69px;
 }
 
 .under__other h2 {
@@ -1590,10 +1633,10 @@ header {
 .under__other-title {
     width: 49%;
     background-color: #F1F4FF;
-    padding-top: 3%;
+    padding-top: 50px;
     margin-top: 3%;
-    padding-left: 3%;
-    padding-bottom: 2%;
+    padding-left: 25px;
+    padding-bottom: 26px;
 }
 
 .under__other-title button {
@@ -1604,4 +1647,201 @@ header {
     max-width: 30%;
     height: 56%;
     margin-bottom: 5%;
+}
+
+/*bitrix 1c page*/
+/*page title*/
+.bitrix__main-title{
+    padding: 50px 50px 0 50px;
+    text-align: center;
+}
+
+.bitrix__main-title img {
+    width: 70px;
+    height: 70px;
+}
+
+.bitrix__main-title h2 {
+    padding: 30px;
+}
+
+.bitrix__main-title p {
+    color: var(--text-color-gray);
+    padding-bottom: 15px;
+}
+
+.bitrix__main-img {
+    text-align: center;
+    padding: 25px;
+}
+
+.bitrix__main-img h2 {
+    padding: 70px 0 30px 0;
+}
+
+.bitrix__main-img button {
+    margin: 0 auto;
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+}
+
+.media__solutions-img {
+    text-align: center;
+    padding-bottom: 19px;
+}
+
+.media__solutions {
+    background-color: #F1F4FF;
+    padding-bottom: 98px;
+    padding-top: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.media__solutions-cards h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.solutions__card {
+    display: flex;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.solutions__title {
+    text-align: left;
+}
+
+.solutions__card-img {
+    padding: 32px 47px 32px 24px;
+}
+
+.solutions__title {
+    padding: 32px 47px 32px 24px;
+}
+
+.solutions__title p {
+    padding-top: 40px;
+    color: var(--text-color-gray);
+}
+
+.media__solutions-cards button {
+    margin: 0 auto;
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+}
+
+.bitrix__pluses-title {
+    text-align: center;
+}
+
+.bitrix__pluses-title h2 {
+    padding-top: 24px;
+}
+
+.bitrix__pluses {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 69px;
+    padding-bottom: 140px;
+}
+
+.bitrix__cards {
+    background-color: #F1F4FF;
+}
+
+.bitrix__cards-back {
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.bitrix__cards-wrapper {
+    padding: 55px 97px 55px 97px;
+    box-shadow: 0px 4px 11px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bitrix__card-plus {
+    display: flex;
+    margin-top: 35px;
+}
+
+.card__plus-img {
+    padding: 46px 24px 46px 30px;
+}
+
+.card__plus-title {
+    padding-top: 37px;
+    padding-bottom: 12px;
+}
+
+.card__plus-title p {
+    color: var(--text-color-gray);
+}
+
+.bitrix__integration h2 {
+    text-align: center;
+}
+
+.bitrix__integration {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.integration__title {
+    text-align: center;
+    max-width: 1059px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 69px;
+}
+
+.integration__title p {
+    color: var(--text-color-gray);
+}
+
+.integration__cost {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 19px;
+}
+
+.cost__card {
+    padding: 35px 19px 5px 19px;
+}
+
+.cost__card button {
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+    margin: 0 auto;
+}
+
+.cost__card p {
+    color: var(--text-color-gray);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.cost__card h3 {
+    padding-top: 22px;
+}
+
+.integration__izhevsk-title {
+    max-width: 664px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.integration__izhevsk-title button {
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+    margin: 0 auto;
+}
+
+.integration__izhevsk-title h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
