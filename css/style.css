@@ -1832,3 +1832,84 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+/*bitrix24crm*/
+/*main*/
+.bitrix24 {
+    padding: 0 30px 50px 30px;
+}
+
+.bitrix24 p {
+    color: var(--text-color-gray);
+}
+
+.bitrix24__main {
+    max-width: 1013px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.bitrix24__main p {
+    padding-top: 30px;
+}
+
+/*bitrix section specialist*/
+.bitrix__spec {
+    background-color: #F1F4FF;
+    padding: 30px 0 30px 0;
+    margin-top: 30px;
+}
+
+.bitrix__spec h3 {
+    text-align: center;
+}
+
+.spec__list {
+    display: flex;
+    padding: 0 30px 0 30px;
+}
+
+.spec__list-row-1{
+    padding-right: 25px;
+}
+.spec__list-row-2{
+    padding-left: 25px;
+}
+
+.spec__list-info {
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+.spec__img {
+    padding: 10px 0 10px 0;
+}
+
+.spec__title p:first-child{
+    padding: 10px 0 10px 0;
+    color: var(--text-color-black);
+}
+
+.bitrix__work-time {
+    padding: 100px 30px 0 30px;
+}
+.bitrix__work-time p {
+    color: var(--text-color-gray);
+}
+
+.work__time-img {
+    max-width: 1107px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 19px;
+}
+.work__time-img img {
+    width: 100%;
+}
+
+.work__time-title p {
+    color: var(--text-color-black);
+}
