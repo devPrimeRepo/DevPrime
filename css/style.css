@@ -119,6 +119,7 @@ header {
     display: block;
     font-family: 'Montserrat Reg', sans-serif;
     background-color: var(--bg-color);
+    transition: background-color 0.3s ease;
     z-index: 999;
 }
 
@@ -688,7 +689,8 @@ header {
 
 .connection__title {
     text-align: center;   
-    width: 50%;
+    max-width: 627px;
+    width: 100%;
 }  
 
 .connection__title p {
@@ -697,8 +699,9 @@ header {
 }
 
 .connection__form {
-    margin-top: 8%;
-    width: 40%;
+    margin-top: 100px;
+    max-width: 627px;
+    width: 100%;
 }
 
 .form__text {
@@ -873,13 +876,13 @@ header {
 .our__services-title {
     display: flex;
     margin-top: 75px;
+    align-items: center;
     justify-content: space-between;
 }
 
 .our__services-info {
     text-align: left;
     width: 30%;
-    margin-left: 10%;
 }
 
 .our__services-info h2 {
@@ -1070,7 +1073,7 @@ header {
 }
 
 .wrap__btn {
-    margin-top: 5%;
+    margin: 76px 0;
 }
 
 /*wrap cards*/
@@ -1148,6 +1151,7 @@ header {
     height: 345px;
     min-width: 198px;
     max-width: 270px;
+    margin-bottom: 15px;
     width: 100%;
     background-color: white;
     text-align: center;
