@@ -1191,7 +1191,7 @@ header {
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 69px 50px 120px 50px;
+    padding: 69px 0 121px 0;
 }
 
 .tools-card {
