@@ -91,4 +91,26 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    // Initial state: Show all cards
+    $('.nav__card-img').show();
+
+    // Handle click on navigation links
+    $('.navigation__links a').on('click', function (e) {
+        e.preventDefault();
+
+        // Get the selected category
+        var category = $(this).data('category');
+
+        // Hide all cards
+        $('.nav__card-img').hide();
+
+        // Show cards that belong to the selected category or show all if "Все" is selected
+        if (category === 'all') {
+            $('.nav__card-img').show();
+        } else {
+            $('.nav__card-img[data-category="' + category + '"]').show();
+        }
+    });
+});
 
