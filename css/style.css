@@ -515,6 +515,12 @@ header {
     flex-direction: column;
 }
 
+.about__services {
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 .services__block {
     display: flex;
     flex-wrap: wrap;
@@ -873,16 +879,52 @@ header {
     color: var(--text-color-gray);
 }
 
+.our__services {
+    padding: 50px 0 50px 0;
+}
+
 .our__services-title {
     display: flex;
     margin-top: 75px;
+<<<<<<< HEAD
     align-items: center;
     justify-content: space-between;
+=======
+}
+
+.our__services-wrapper {
+    padding-right: 50px;
+}
+
+.position__img {
+    position: absolute;
+}
+
+.position__img-fir {
+    position: absolute;
+}
+
+.position__pic {
+    padding-top: 50px;
+    padding-left: 100px;
+    position:relative;
+}
+
+.position__pic-fir {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 100px;
+>>>>>>> 6ee41ca64a022a302bf0e915e985dd4201ca8fd8
 }
 
 .our__services-info {
     text-align: left;
     width: 30%;
+<<<<<<< HEAD
+=======
+    margin-left: 10%;
+    margin-right: 100px;
+>>>>>>> 6ee41ca64a022a302bf0e915e985dd4201ca8fd8
 }
 
 .our__services-info h2 {
@@ -895,8 +937,6 @@ header {
 
 .our__services-img {
     background-color: #ECF0FC;
-    width: 367px;
-    height: 421px;
     border-radius: 10%;
     margin-bottom: 5%;
 }
@@ -1068,13 +1108,17 @@ header {
     flex-wrap: wrap;
 }
 
-.wrap__portfolio-card {
 
-}
 
 .wrap__btn {
+<<<<<<< HEAD
     margin: 76px 0;
+=======
+    padding-top: 50px;
+    padding-bottom: 50px;
+>>>>>>> 6ee41ca64a022a302bf0e915e985dd4201ca8fd8
 }
+
 
 /*wrap cards*/
 
@@ -1083,6 +1127,11 @@ header {
     margin-right: auto;
     border: 1px solid var(--text-color-gray);
     color: var(--text-color-gray);
+}
+
+.wrap__card-table {
+    max-width: 150px;
+    width: 100%;
 }
 
 .wrap__card-img img {
@@ -1108,6 +1157,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10%;
+    max-width: 700px;
+    width: 100%;
 }
 
 .wrap__pluses-title {
@@ -1137,10 +1188,10 @@ header {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
     justify-content: space-between;
-    padding-bottom: 8%;
     flex-wrap: wrap;
+    padding: 69px 50px 120px 50px;
 }
 
 .tools-card {
@@ -1916,4 +1967,118 @@ header {
 
 .work__time-title p {
     color: var(--text-color-black);
+}
+
+/*contacts page*/
+
+.contacts {
+    padding-top: 96px;
+    text-align: center;
+}
+
+.contacts__block {
+    background-color: #F3F5FB;
+    padding-top: 25px;
+    border-radius: 15px;
+}
+
+.contacts__block-title p {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.contacts__form {
+    max-width: 1043px;
+    width: 100%;
+    padding-top: 90px;
+    display: flex;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.contacts__form-img {
+    position: absolute;
+}
+
+.contacts__form img {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.contacts__form-wrapper {
+    padding-right: 50px;
+}
+.contacts__form-input input {
+    width: 100%;
+    margin-top: 25px;
+    height: 40px;
+    background-color: #F3F5FB;
+    border: none;
+    border-radius: 15px;
+    padding-left:10px ;
+    outline: none;
+}
+
+.contacts__form-input button {
+    margin: 0 auto;
+    background-color: var(--button-color);
+    color: var(--text-color-white);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contacts__form-input textarea {
+    width: 100%;
+    margin-top: 25px;
+    height: 100px;
+    background-color: #F3F5FB;
+    border: none;
+    border-radius: 15px;
+    padding-left:10px ;
+    padding-top: 10px;
+    font-family: 'Montserrat Reg', sans-serif;
+    font-weight: 400;
+    outline: none;
+}
+
+.personal-data input {
+    width: 5%;
+    margin-top: 0;
+}
+
+/*error page*/
+.error__block {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 250px 50px 100px 50px;
+    text-align: center;
+}
+.error__block img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.error__block h2 {
+    padding: 24px 0 16px 0;
+}
+
+.error__block button {
+    background-color: var(--button-color);
+    margin-top: 32px;
+    margin: 32px auto 0 auto;
+}
+
+.error__block small {
+    color: var(--text-color-gray);
+    padding-bottom: 32px;
+}
+
+.error__block a {
+    color: var(--text-color-white);
+    outline: none;
 }
