@@ -886,10 +886,6 @@ header {
 .our__services-title {
     display: flex;
     margin-top: 75px;
-<<<<<<< HEAD
-    align-items: center;
-    justify-content: space-between;
-=======
 }
 
 .our__services-wrapper {
@@ -914,17 +910,13 @@ header {
     position: relative;
     padding-top: 50px;
     padding-left: 100px;
->>>>>>> 6ee41ca64a022a302bf0e915e985dd4201ca8fd8
 }
 
 .our__services-info {
     text-align: left;
     width: 30%;
-<<<<<<< HEAD
-=======
     margin-left: 10%;
     margin-right: 100px;
->>>>>>> 6ee41ca64a022a302bf0e915e985dd4201ca8fd8
 }
 
 .our__services-info h2 {
@@ -1111,12 +1103,8 @@ header {
 
 
 .wrap__btn {
-<<<<<<< HEAD
-    margin: 76px 0;
-=======
     padding-top: 50px;
     padding-bottom: 50px;
->>>>>>> 6ee41ca64a022a302bf0e915e985dd4201ca8fd8
 }
 
 
@@ -2081,4 +2069,73 @@ header {
 .error__block a {
     color: var(--text-color-white);
     outline: none;
+}
+
+/*pay page*/
+
+.pay__title {
+    color: var(--text-color-gray);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.pay__wrapper {
+    display: flex;
+    padding-top: 140px;
+}
+
+.pay__pic {
+    padding-right: 166px;
+    max-width: 515px;
+    width: 100%;
+    height: auto;
+}
+
+.pay__info h3 {
+    padding-top: 16px;
+}
+
+.pay__cost {
+    padding-top: 84px;
+}
+
+.pay__file {
+    display: flex;
+    max-width: 588px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.pay__file h3 {
+    padding-top: 20px;
+}
+
+.pay__file-link a {
+    display: flex;
+    color: var(--text-color-black);
+}
+
+.pay__file-link small {
+    color: var(--text-color-gray);
+}
+
+.pay__data {
+    text-align: center;
+    max-width: 588px;
+    width: 100%;
+}
+
+.pay__button {
+    max-width: 588px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.pay__button button {
+    color: var(--text-color-white);
+    background-color: var(--button-color);
+    margin-left: auto;
+    font-size: 16px;
+    font-family: 'Montserrat Reg', sans-serif;
 }
