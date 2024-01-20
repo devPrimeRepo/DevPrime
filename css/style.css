@@ -2086,6 +2086,7 @@ header {
 
 .pay__pic {
     padding-right: 166px;
+    padding-top: 16px;
     max-width: 515px;
     width: 100%;
     height: auto;
